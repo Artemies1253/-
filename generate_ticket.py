@@ -25,7 +25,3 @@ def generate_ticket(first_name, last_name, city_from, city_to, data) -> object:
     base.save(temp_file, 'png')
     temp_file.seek(0)
     return temp_file
-
-
-# generate_ticket("Лирооой", "Дженкинс", 'Воронеж', 'Мухосранск', "20-01-2021")
-
